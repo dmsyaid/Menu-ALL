@@ -1,0 +1,52 @@
+body {
+  background-color: #70d4a633;
+}
+.menu{
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+.Opennav {
+  cursor: pointer;
+}
+
+
+
+
+
+.menu_item {
+	background-color: #143baacc;
+	text-align: center;
+	width: 100%;
+	height: 660px;
+}
+
+.closenav {
+  float: right;
+  padding-right: 33px;
+  padding: 6px;
+  margin-right: 41px;
+  color: #fff;
+  background-color: #5de443;
+}
+
+.menu1 {
+  display: inline-grid;
+  padding: 154px;
+}
+
+a {
+}
+.menu1 a {
+  font-size: 33px;
+  text-decoration: none;
+  color: #fff;
+}
+
+
